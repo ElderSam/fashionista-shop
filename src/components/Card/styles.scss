@@ -60,6 +60,7 @@ $breakpoint-laptop: 1024px;
       h2 {
         font-size: 1.3em;
         text-transform: uppercase;
+        text-align: center;
         
         @media screen and (min-width: $breakpoint-laptop) {
           font-size: 1.1em;
@@ -68,9 +69,9 @@ $breakpoint-laptop: 1024px;
     }
   
     &__prices {
-      width: 55%;
+      width: 56%;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       margin: auto;
       margin-top: 8px;
       font-size: 1.1em;
@@ -87,6 +88,7 @@ $breakpoint-laptop: 1024px;
     }
   
     &__price--sale {
+      padding-right: 6px;
       font-style: italic;
       color: #777777;
       text-decoration: line-through;
