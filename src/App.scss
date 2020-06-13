@@ -1,0 +1,16 @@
+@import "./base";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $primary-font;
+  background-color: $secondary-color;
+  color: $primary-color;
+}
