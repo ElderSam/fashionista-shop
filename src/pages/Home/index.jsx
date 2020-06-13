@@ -28,6 +28,9 @@ const Home = () => {
   return (
     <>
       <Topbar />
+      <div className="photo">
+        <a href="#cards">Conheça nossos produtos</a>
+      </div>
       <FilterBar />
       <div className="cards" id="cards">
         {products.map((product, index) => (

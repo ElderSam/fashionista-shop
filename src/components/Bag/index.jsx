@@ -25,7 +25,7 @@ const Bag = ({ handleBag }) => {
       {bag === 0 ? (
         <div className="bag__products--empty">
           <p>Sua sacola está vazia</p>
-          <FiFrown size={20} color="#393939" />
+          <FiFrown size={20} color="#FFF" />
         </div>
       ) : (
         <div className="bag__products">
