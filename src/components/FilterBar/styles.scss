@@ -2,17 +2,18 @@ $breakpoint-tablet: 768px;
 $breakpoint-laptop: 1024px;
 
 .filterBar {
-  width: 80%;
+  width: 85%;
   min-height: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: space-between;
   margin: auto;
-  margin-top: 80px;
+  margin-top: 16px;
   color: #121111;
 
   @media screen and (min-width: $breakpoint-laptop) {
+    width: 80%;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -26,15 +27,19 @@ $breakpoint-laptop: 1024px;
     padding-top: 16px;
 
     @media screen and (min-width: $breakpoint-laptop) {
-      width: 30%;
+      width: 35%;
       padding-top: 0;
     }
   }
 
   &__buttons-container {
-    width: 70%;
+    width: 65%;
     display: flex;
     justify-content: space-between;
+
+    @media screen and (min-width: $breakpoint-laptop) {
+      width: 60%;
+    }
   }
 
   &__button {

@@ -1,6 +1,9 @@
 $primary-color: rgb(122, 60, 18);
 $secondary-color: #fff;
 
+$breakpoint-tablet: 768px;
+$breakpoint-laptop: 1024px;
+
 .topbar {
   width: 100%;
   height: 80px;
@@ -8,16 +11,21 @@ $secondary-color: #fff;
   top: 0;
   left: 0;
   z-index: 5;
-  background-color: $primary-color;
+  background-color: transparent;
   color: $secondary-color;
+  transition: 0.5s ease-in-out;
 
   &__content {
-    width: 80%;
+    width: 85%;
     height: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media screen and (min-width: $breakpoint-laptop) {
+      width: 80%;
+    }
   }
 
   h1 {
@@ -36,6 +44,10 @@ $secondary-color: #fff;
     background-color: transparent;
     outline: none;
     cursor: pointer;
+  }
+
+  .scroll {
+    background-color: $primary-color;
   }
 }
 
