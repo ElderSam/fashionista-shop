@@ -1,17 +1,11 @@
 import React from 'react';
 
-import Topbar from './components/Topbar';
-import FilterBar from './components/FilterBar';
+import Home from "./pages/Home";
 
 import './App.css';
 
 function App() {
-  return (
-    <>
-    <Topbar />
-    <FilterBar />
-    </>
-  );
+  return <Home />;
 }
 
 export default App;
