@@ -21,7 +21,7 @@ const Topbar = () => {
 
   return (
     <>
-      <header className="topbar">
+      <header className="topbar" id="top">
         <div className="topbar__content">
           <div className="divLogo">
               <img className="logo" src={Logo} alt="logo" />
