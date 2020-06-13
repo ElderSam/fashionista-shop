@@ -8,7 +8,9 @@ const Detail = () => {
     return (
         <>
         <Topbar />
-        <Product />
+        <div className="detail">
+            <Product />
+        </div>
         </>
     );
 }
