@@ -6,6 +6,7 @@ import "./styles.scss";
 import Topbar from "../../components/Topbar";
 import FilterBar from "../../components/FilterBar";
 import Card from "../../components/Card";
+import Footer from "../../components/Footer";
 
 import { handleScroll } from "../../utils";
 import { getProducts } from "../../services/api";
@@ -37,6 +38,7 @@ const Home = () => {
           <Card product={product} key={index} />
         ))}
       </div>
+      <Footer />
     </>
   );
 };
